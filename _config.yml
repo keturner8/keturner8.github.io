@@ -25,10 +25,11 @@ author:
   name: "Katherine Turner"
   email: "keturner@arizona.edu"
 
-remote_theme: daviddarnes/alembic
+remote_theme: daviddarnes/alembic@main
 plugins:
   - jekyll-include-cache
-
+  - jekyll-remote-theme
+  - jekyll-seo-tag
 # Navigation (customize as needed)
 navigation:
   - title: "Home"
